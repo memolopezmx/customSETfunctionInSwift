@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let winner = solutio(votes: votes)
+        let winner = solution(votes: votes)
         print(winner)
     }
 
@@ -71,3 +71,7 @@ class ViewController: UIViewController {
     }
 }
 
+struct Queen {
+    var girlName: String
+    var votes: Int
+}
